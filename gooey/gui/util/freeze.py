@@ -3,7 +3,7 @@ import sys
 
 
 def is_frozen():
-    return getattr(sys, 'frozen', False)
+    return getattr(sys, 'frozen', False) and False
 
 
 def getResourcePath(*args):
